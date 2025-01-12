@@ -59,3 +59,10 @@ export function middleware(req) {
 export const config = {
   matcher: ['/((?!_next/static|_next/image|images|favicon.ico).*)'],
 }
+
+// Security headers
+const securityHeaders = {
+  'X-Frame-Options': 'DENY',
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'strict-origin-when-cross-origin'
+};
