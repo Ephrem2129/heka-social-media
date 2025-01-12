@@ -101,3 +101,5 @@ export default function CreatePostPage() {
     </main>
   )
 }
+
+// Modified: 2026-04-15 20:23:46 - Initialize JWT authentication setup
