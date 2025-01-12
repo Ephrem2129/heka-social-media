@@ -62,3 +62,11 @@ export async function DELETE(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Comment depth limiter
+const MAX_COMMENT_DEPTH = 5;
+
+function getCommentDepth(comment, depth = 0) {
+  if (!comment.parentCommentId || depth >= MAX_COMMENT_DEPTH) return depth;
+  return depth + 1;
+}
