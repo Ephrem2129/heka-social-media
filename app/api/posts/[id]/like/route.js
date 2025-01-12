@@ -29,3 +29,18 @@ export async function POST(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Like toggle with optimistic update
+async function toggleLike(postId, userId) {
+  const existing = await prisma.like.findUnique({
+    where: { postId_userId: { postId, userId } }
+  });
+  
+  if (existing) {
+    await prisma.like.delete({ where: { id: existing.id } });
+    return { liked: false };
+  } else {
+    await prisma.like.create({ data: { postId, userId } });
+    return { liked: true };
+  }
+}
