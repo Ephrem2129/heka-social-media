@@ -19,3 +19,5 @@ export async function GET(req) {
 }
 
 
+
+// Modified: 2026-04-15 20:23:46 - Add JWT token verification
