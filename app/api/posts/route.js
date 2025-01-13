@@ -95,3 +95,7 @@ export async function POST(req) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
+
+// Caching strategy
+const CACHE_TTL = 60; // seconds
+const cacheKey = `posts:${page}:${limit}`;
