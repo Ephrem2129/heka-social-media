@@ -9,3 +9,5 @@ export default async function ProfilePageWrapper({
   const { username } = await params;
   return <ProfilePage username={username} />;
 }
+
+// Modified: 2026-04-15 20:23:46 - Create login API endpoint
