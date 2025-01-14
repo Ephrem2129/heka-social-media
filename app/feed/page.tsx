@@ -96,3 +96,5 @@ export default function FeedPage() {
     </main>
   );
 }
+
+// Modified: 2026-04-15 20:23:46 - Add bcrypt password hashing
