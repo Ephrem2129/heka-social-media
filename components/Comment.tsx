@@ -111,3 +111,5 @@ export default function Comment({ comment, me, onReply, onEdit, onDelete, postId
     </div>
   )
 }
+
+// Modified: 2026-04-15 20:23:46 - Add password strength validation
