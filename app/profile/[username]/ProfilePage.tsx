@@ -280,3 +280,5 @@ export default function ProfilePage({ username }: { username: string }) {
     </main>
   );
 }
+
+// Modified: 2026-04-15 20:23:46 - Improve auth error handling
