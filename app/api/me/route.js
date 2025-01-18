@@ -23,3 +23,5 @@ export async function GET(req) {
 // Modified: 2026-04-15 20:23:46 - Add JWT token verification
 
 // Modified: 2026-04-15 20:23:46 - Add authentication middleware
+
+// Modified: 2026-04-15 20:23:46 - Update schema with new fields
