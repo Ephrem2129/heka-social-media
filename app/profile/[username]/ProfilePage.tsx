@@ -282,3 +282,5 @@ export default function ProfilePage({ username }: { username: string }) {
 }
 
 // Modified: 2026-04-15 20:23:46 - Improve auth error handling
+
+// Modified: 2026-04-15 20:23:46 - Update migration files
