@@ -101,3 +101,10 @@ export default function CreatePostPage() {
     </main>
   )
 }
+
+// Post validation
+const validatePost = () => {
+  if (!content.trim()) return 'Content is required';
+  if (content.length > MAX_CHARS) return 'Content too long';
+  return null;
+};
