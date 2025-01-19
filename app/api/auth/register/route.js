@@ -46,3 +46,5 @@ export async function POST(request) {
 
 
 // Modified: 2026-04-15 20:23:46 - Implement cookie-based session management
+
+// Modified: 2026-04-15 20:23:46 - Create initial migration
