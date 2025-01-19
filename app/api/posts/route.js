@@ -99,3 +99,13 @@ export async function POST(req) {
 // Caching strategy
 const CACHE_TTL = 60; // seconds
 const cacheKey = `posts:${page}:${limit}`;
+
+// Post search query builder
+function buildSearchQuery(searchTerm) {
+  return {
+    OR: [
+      { content: { contains: searchTerm, mode: 'insensitive' } },
+      { author: { username: { contains: searchTerm, mode: 'insensitive' } } }
+    ]
+  };
+}
