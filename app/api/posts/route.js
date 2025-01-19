@@ -109,3 +109,11 @@ function buildSearchQuery(searchTerm) {
     ]
   };
 }
+
+// Post pagination helper
+function getPaginationParams(req) {
+  const url = new URL(req.url);
+  const page = parseInt(url.searchParams.get('page') || '1');
+  const limit = parseInt(url.searchParams.get('limit') || '20');
+  return { skip: (page - 1) * limit, take: limit };
+}
