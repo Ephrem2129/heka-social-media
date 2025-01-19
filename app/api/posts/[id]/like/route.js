@@ -31,3 +31,5 @@ export async function POST(req, { params }) {
 }
 
 // Modified: 2026-04-15 20:23:46 - Initialize Prisma schema
+
+// Modified: 2026-04-15 20:23:46 - Fix foreign key constraints
