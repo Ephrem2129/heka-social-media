@@ -286,3 +286,5 @@ export default function ProfilePage({ username }: { username: string }) {
 // Modified: 2026-04-15 20:23:46 - Update migration files
 
 // Modified: 2026-04-15 20:23:46 - Create user profile schema
+
+// Modified: 2026-04-15 20:23:46 - Create user settings page
