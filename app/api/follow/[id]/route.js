@@ -41,3 +41,5 @@ export async function POST(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Modified: 2026-04-15 20:23:46 - Optimize database relations
