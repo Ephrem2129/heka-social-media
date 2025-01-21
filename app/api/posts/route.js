@@ -117,3 +117,5 @@ function getPaginationParams(req) {
   const limit = parseInt(url.searchParams.get('limit') || '20');
   return { skip: (page - 1) * limit, take: limit };
 }
+
+// Add comment count to posts
