@@ -103,3 +103,5 @@ export default function CreatePostPage() {
 }
 
 // Modified: 2026-04-15 20:23:46 - Initialize JWT authentication setup
+
+// Modified: 2026-04-15 20:23:46 - Create user API endpoints
