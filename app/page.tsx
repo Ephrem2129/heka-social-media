@@ -318,3 +318,9 @@ export default function Home() {
     </main>
   );
 }
+
+// Debounced search
+const debouncedSearch = useMemo(
+  () => debounce((term) => setSearchTerm(term), 300),
+  []
+);
