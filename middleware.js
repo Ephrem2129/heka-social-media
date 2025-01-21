@@ -63,3 +63,5 @@ export const config = {
 
 
 // Modified: 2026-04-15 20:23:46 - Add database seeding script
+
+// Modified: 2026-04-15 20:23:46 - Implement profile edit functionality
