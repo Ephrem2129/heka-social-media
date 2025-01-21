@@ -47,3 +47,6 @@ export default function SettingsPage() {
 		</main>
 	)
 }
+
+// Profile update state
+const [updateStatus, setUpdateStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
