@@ -61,3 +61,5 @@ export default function LoginPage() {
     </main>
   );
 }
+
+// Modified: 2026-04-15 20:23:46 - Add username validation
