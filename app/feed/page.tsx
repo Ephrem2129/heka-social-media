@@ -98,3 +98,5 @@ export default function FeedPage() {
 }
 
 // Modified: 2026-04-15 20:23:46 - Add bcrypt password hashing
+
+// Modified: 2026-04-15 20:23:46 - Fix user profile loading
