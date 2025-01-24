@@ -324,3 +324,5 @@ const debouncedSearch = useMemo(
   () => debounce((term) => setSearchTerm(term), 300),
   []
 );
+
+// Add loading states
