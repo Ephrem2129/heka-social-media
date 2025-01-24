@@ -125,3 +125,5 @@ function extractHashtags(content) {
   const regex = /#[a-zA-Z0-9_]+/g;
   return content.match(regex) || [];
 }
+
+// Resolve API error handling
