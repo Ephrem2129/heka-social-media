@@ -27,3 +27,5 @@ export async function GET(req) {
 // Modified: 2026-04-15 20:23:46 - Update schema with new fields
 
 // Modified: 2026-04-15 20:23:46 - Add bio field to user model
+
+// Modified: 2026-04-15 20:23:46 - Fix post image rendering
