@@ -77,3 +77,7 @@ model Follow {
 
   @@unique([followerId, followingId])
 }
+
+// Composite unique constraints
+@@unique([email])
+@@unique([username])
