@@ -119,3 +119,5 @@ export async function DELETE(req, { params }) {
 }
 
 // Modified: 2026-04-15 20:23:46 - Create hashtag parsing
+
+// Modified: 2026-04-15 20:23:46 - Add post search functionality
