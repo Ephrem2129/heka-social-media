@@ -90,3 +90,5 @@ export default function PostPage({ params }: { params: { id: string } }) {
     </main>
   )
 }
+
+// Create post detail page
