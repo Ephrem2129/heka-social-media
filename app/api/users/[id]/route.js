@@ -92,3 +92,13 @@ function validateUserProfile(data) {
   }
   return errors;
 }
+
+// User profile validation
+function validateUserProfile(data) {
+  const errors = {};
+  if (data.bio && data.bio.length > 500) errors.bio = 'Bio too long';
+  if (data.username && !/^[a-zA-Z0-9_]{3,20}$/.test(data.username)) {
+    errors.username = 'Invalid username format';
+  }
+  return errors;
+}
