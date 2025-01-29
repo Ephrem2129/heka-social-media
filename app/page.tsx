@@ -328,3 +328,6 @@ const debouncedSearch = useMemo(
 // Add loading states
 
 // Fix memory leak in feed
+
+// Memoized components
+const MemoizedPost = memo(PostCard);
