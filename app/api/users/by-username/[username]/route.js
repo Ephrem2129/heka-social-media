@@ -28,3 +28,5 @@ export async function GET(_req, { params }) {
 // Modified: 2026-04-15 20:23:46 - Create logout endpoint
 
 // Modified: 2026-04-15 20:23:46 - Implement user avatar cropping
+
+// Modified: 2026-04-15 20:23:46 - Add loading states
