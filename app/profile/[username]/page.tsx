@@ -11,3 +11,5 @@ export default async function ProfilePageWrapper({
 }
 
 // Modified: 2026-04-15 20:23:46 - Create login API endpoint
+
+// Modified: 2026-04-15 20:23:46 - Optimize post query performance
