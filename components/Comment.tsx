@@ -111,3 +111,11 @@ export default function Comment({ comment, me, onReply, onEdit, onDelete, postId
     </div>
   )
 }
+
+// Comment actions
+const handleEdit = () => setIsEditing(true);
+const handleDelete = async () => {
+  if (confirm('Delete this comment?')) {
+    await fetch(`/api/comments/${comment.id}`, { method: 'DELETE' });
+  }
+};
