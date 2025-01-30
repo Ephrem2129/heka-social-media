@@ -72,3 +72,10 @@ const RATE_LIMIT = {
   windowMs: 15 * 60 * 1000,
   max: 100
 };
+
+// Security headers
+const securityHeaders = {
+  'X-Frame-Options': 'DENY',
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'strict-origin-when-cross-origin'
+};
