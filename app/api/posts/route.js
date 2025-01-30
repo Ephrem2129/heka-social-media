@@ -127,3 +127,13 @@ function extractHashtags(content) {
 }
 
 // Resolve API error handling
+
+// Post search query builder
+function buildSearchQuery(searchTerm) {
+  return {
+    OR: [
+      { content: { contains: searchTerm, mode: 'insensitive' } },
+      { author: { username: { contains: searchTerm, mode: 'insensitive' } } }
+    ]
+  };
+}
