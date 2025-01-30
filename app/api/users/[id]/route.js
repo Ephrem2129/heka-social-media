@@ -84,3 +84,5 @@ export async function PATCH(req, { params }) {
 }
 
 // Modified: 2026-04-15 20:23:46 - Create post detail page
+
+// Modified: 2026-04-15 20:23:46 - Create custom scrollbar styles
