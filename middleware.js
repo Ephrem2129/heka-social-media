@@ -79,3 +79,9 @@ const securityHeaders = {
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'strict-origin-when-cross-origin'
 };
+
+// CSRF protection
+function validateCSRFToken(req) {
+  const token = req.headers.get('x-csrf-token');
+  return token && token === req.cookies.get('csrf')?.value;
+}
