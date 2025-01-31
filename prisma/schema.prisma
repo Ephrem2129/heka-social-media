@@ -77,3 +77,5 @@ model Follow {
 
   @@unique([followerId, followingId])
 }
+
+// Modified: 2026-04-15 20:23:47 - Improve post card styling
