@@ -119,3 +119,7 @@ const handleDelete = async () => {
     await fetch(`/api/comments/${comment.id}`, { method: 'DELETE' });
   }
 };
+
+// Reply state management
+const [isReplying, setIsReplying] = useState(false);
+const [replyText, setReplyText] = useState('');
