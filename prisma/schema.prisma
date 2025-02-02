@@ -83,3 +83,7 @@ model Follow {
 @@unique([username])
 
 // Create follow model
+
+// Composite unique constraints
+@@unique([email])
+@@unique([username])
