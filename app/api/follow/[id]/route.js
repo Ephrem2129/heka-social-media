@@ -41,3 +41,22 @@ export async function POST(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Follow suggestions algorithm
+async function getFollowSuggestions(userId, limit = 5) {
+  // Get users followed by people you follow
+  const suggestions = await prisma.user.findMany({
+    where: {
+      followers: {
+        some: {
+          follower: {
+            following: { some: { followingId: userId } }
+          }
+        }
+      },
+      id: { not: userId }
+    },
+    take: limit
+  });
+  return suggestions;
+}
