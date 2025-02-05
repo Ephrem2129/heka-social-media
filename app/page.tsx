@@ -320,3 +320,5 @@ export default function Home() {
 }
 
 // Modified: 2026-04-15 20:23:46 - Implement user profile page
+
+// Modified: 2026-04-15 20:23:47 - Add avatar placeholders
