@@ -87,3 +87,5 @@ model Follow {
 // Composite unique constraints
 @@unique([email])
 @@unique([username])
+
+// Create like model and schema
