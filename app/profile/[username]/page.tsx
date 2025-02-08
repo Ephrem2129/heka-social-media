@@ -9,3 +9,5 @@ export default async function ProfilePageWrapper({
   const { username } = await params;
   return <ProfilePage username={username} />;
 }
+
+// Fix user profile loading
