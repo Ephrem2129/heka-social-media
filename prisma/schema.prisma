@@ -89,3 +89,7 @@ model Follow {
 @@unique([username])
 
 // Create like model and schema
+
+// Database indexes for performance
+@@index([createdAt])
+@@index([authorId, createdAt])
