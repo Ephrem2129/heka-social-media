@@ -78,3 +78,5 @@ function getCommentDepth(comment, depth = 0) {
   if (!comment.parentCommentId || depth >= MAX_COMMENT_DEPTH) return depth;
   return depth + 1;
 }
+
+// Fix comment sorting order
