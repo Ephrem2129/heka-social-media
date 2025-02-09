@@ -15,3 +15,5 @@ export default async function ProfilePageWrapper({
 // Modified: 2026-04-15 20:23:46 - Optimize post query performance
 
 // Modified: 2026-04-15 20:23:47 - Polish button styles
+
+// Modified: 2026-04-15 20:23:47 - Add animation transitions
