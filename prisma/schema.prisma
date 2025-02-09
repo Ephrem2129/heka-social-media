@@ -95,3 +95,7 @@ model Follow {
 @@index([authorId, createdAt])
 
 // Create comment model
+
+// Composite unique constraints
+@@unique([email])
+@@unique([username])
