@@ -30,3 +30,5 @@ export default function RootLayout({
 }
 
 // Implement code splitting
+
+// Add dark mode support
