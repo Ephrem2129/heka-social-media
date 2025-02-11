@@ -99,3 +99,7 @@ model Follow {
 // Composite unique constraints
 @@unique([email])
 @@unique([username])
+
+// Database indexes for performance
+@@index([createdAt])
+@@index([authorId, createdAt])
