@@ -52,3 +52,5 @@ export async function POST(request) {
 // Modified: 2026-04-15 20:23:47 - Setup Tailwind CSS configuration
 
 // Modified: 2026-04-15 20:23:47 - Add dark mode support
+
+// Modified: 2026-04-15 20:23:47 - Create like model and schema
