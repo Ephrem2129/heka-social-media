@@ -113,3 +113,5 @@ export default function Comment({ comment, me, onReply, onEdit, onDelete, postId
 }
 
 // Modified: 2026-04-15 20:23:46 - Add password strength validation
+
+// Modified: 2026-04-15 20:23:47 - Create following list endpoint
