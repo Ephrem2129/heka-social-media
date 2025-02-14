@@ -53,3 +53,5 @@ export default function SettingsPage() {
 // Modified: 2026-04-15 20:23:47 - Improve responsive layout
 
 // Modified: 2026-04-15 20:23:47 - Create follow model
+
+// Modified: 2026-04-15 20:23:47 - Add followers list endpoint
