@@ -84,3 +84,5 @@ export async function POST(req, { params }) {
 // Modified: 2026-04-15 20:23:46 - Improve mobile responsiveness
 
 // Modified: 2026-04-15 20:23:47 - Refine navigation UI
+
+// Modified: 2026-04-15 20:23:47 - Implement follow/unfollow system
