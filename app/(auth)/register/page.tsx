@@ -129,3 +129,5 @@ export default function RegisterPage() {
 // Modified: 2026-04-15 20:23:46 - Add cascade delete rules
 
 // Modified: 2026-04-15 20:23:46 - Implement post draft feature
+
+// Modified: 2026-04-15 20:23:47 - Implement like/unlike functionality
