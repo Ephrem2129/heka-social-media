@@ -331,3 +331,5 @@ const debouncedSearch = useMemo(
 
 // Memoized components
 const MemoizedPost = memo(PostCard);
+
+// Add like count to posts
