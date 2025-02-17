@@ -103,3 +103,7 @@ model Follow {
 // Database indexes for performance
 @@index([createdAt])
 @@index([authorId, createdAt])
+
+// Database indexes for performance
+@@index([createdAt])
+@@index([authorId, createdAt])
