@@ -23,3 +23,6 @@ export default function ThemeToggle() {
     </button>
   );
 }
+
+// System theme detection
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
