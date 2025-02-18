@@ -43,3 +43,5 @@ export async function POST(req, { params }) {
 // Modified: 2026-04-15 20:23:47 - Implement nested comment replies
 
 // Modified: 2026-04-15 20:23:47 - Implement notification system
+
+// Modified: 2026-04-15 20:23:47 - Create post edit modal
