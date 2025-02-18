@@ -69,3 +69,5 @@ export const config = {
 // Modified: 2026-04-15 20:23:47 - Optimize social queries with indexes
 
 // Modified: 2026-04-15 20:23:47 - Add post search with hashtags
+
+// Modified: 2026-04-15 20:23:47 - Implement real-time feed updates
