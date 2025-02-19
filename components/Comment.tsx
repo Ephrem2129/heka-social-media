@@ -119,3 +119,5 @@ export default function Comment({ comment, me, onReply, onEdit, onDelete, postId
 // Modified: 2026-04-15 20:23:47 - Implement activity feed
 
 // Modified: 2026-04-15 20:23:47 - Add post sharing
+
+// Modified: 2026-04-15 20:23:47 - Create trending hashtags
