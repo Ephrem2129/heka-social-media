@@ -123,3 +123,7 @@ const handleDelete = async () => {
 // Reply state management
 const [isReplying, setIsReplying] = useState(false);
 const [replyText, setReplyText] = useState('');
+
+// Reply state management
+const [isReplying, setIsReplying] = useState(false);
+const [replyText, setReplyText] = useState('');
