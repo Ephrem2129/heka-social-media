@@ -339,3 +339,5 @@ const debouncedSearch = useMemo(
   () => debounce((term) => setSearchTerm(term), 300),
   []
 );
+
+// Fix post image rendering
