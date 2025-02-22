@@ -23,3 +23,5 @@ export async function GET(_req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Add followers list endpoint
