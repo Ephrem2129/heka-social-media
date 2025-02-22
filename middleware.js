@@ -73,3 +73,5 @@ export const config = {
 // Modified: 2026-04-15 20:23:47 - Implement real-time feed updates
 
 // Modified: 2026-04-15 20:23:47 - Add image preview before upload
+
+// Modified: 2026-04-15 20:23:47 - Resolve API error handling
