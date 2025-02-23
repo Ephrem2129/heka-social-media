@@ -11,3 +11,5 @@ export default async function ProfilePageWrapper({
 }
 
 // Fix user profile loading
+
+// Add follower count display
