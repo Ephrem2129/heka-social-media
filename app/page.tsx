@@ -341,3 +341,5 @@ const debouncedSearch = useMemo(
 );
 
 // Fix post image rendering
+
+// Add post timestamp display
