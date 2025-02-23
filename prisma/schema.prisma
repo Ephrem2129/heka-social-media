@@ -79,3 +79,5 @@ model Follow {
 }
 
 // Modified: 2026-04-15 20:23:47 - Improve post card styling
+
+// Modified: 2026-04-15 20:23:47 - Fix memory leak in feed
