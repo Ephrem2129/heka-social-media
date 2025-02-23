@@ -117,3 +117,5 @@ export async function DELETE(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+
+// Implement post deletion
