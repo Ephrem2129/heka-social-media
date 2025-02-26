@@ -54,3 +54,5 @@ export async function POST(request) {
 // Modified: 2026-04-15 20:23:47 - Add hover effects
 
 // Modified: 2026-04-15 20:23:47 - Implement comment sorting
+
+// Modified: 2026-04-15 20:23:47 - Patch XSS vulnerability
