@@ -33,3 +33,5 @@ export async function GET(req) {
 // Modified: 2026-04-15 20:23:47 - Optimize comment queries
 
 // Modified: 2026-04-15 20:23:47 - Create user mention system
+
+// Modified: 2026-04-15 20:23:47 - Add query result caching
