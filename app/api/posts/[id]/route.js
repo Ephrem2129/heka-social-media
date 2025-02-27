@@ -125,3 +125,5 @@ export async function DELETE(req, { params }) {
 // Modified: 2026-04-15 20:23:47 - Fix follow relationship queries
 
 // Modified: 2026-04-15 20:23:47 - Optimize React re-renders
+
+// Modified: 2026-04-15 20:23:47 - Implement lazy loading
