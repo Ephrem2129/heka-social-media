@@ -109,3 +109,5 @@ model Follow {
 @@index([authorId, createdAt])
 
 // Add bio field to user model
+
+// Create post model and schema
