@@ -85,3 +85,9 @@ function validateCSRFToken(req) {
   const token = req.headers.get('x-csrf-token');
   return token && token === req.cookies.get('csrf')?.value;
 }
+
+// Rate limiting configuration
+const RATE_LIMIT = {
+  windowMs: 15 * 60 * 1000,
+  max: 100
+};
