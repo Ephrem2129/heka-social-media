@@ -59,3 +59,5 @@ export default function SettingsPage() {
 // Modified: 2026-04-15 20:23:47 - Add bookmark functionality
 
 // Modified: 2026-04-15 20:23:47 - Fix CORS issues
+
+// Modified: 2026-04-15 20:23:47 - Add request debouncing
