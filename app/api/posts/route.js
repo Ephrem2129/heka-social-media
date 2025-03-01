@@ -151,3 +151,17 @@ function extractHashtags(content) {
   const regex = /#[a-zA-Z0-9_]+/g;
   return content.match(regex) || [];
 }
+
+// Query optimization with select
+const posts = await prisma.post.findMany({
+  select: {
+    id: true,
+    content: true,
+    image: true,
+    createdAt: true,
+    author: {
+      select: { id: true, username: true, avatar: true }
+    },
+    _count: { select: { likes: true, comments: true } }
+  }
+});
