@@ -60,3 +60,9 @@ async function getFollowSuggestions(userId, limit = 5) {
   });
   return suggestions;
 }
+
+// Follow validation
+function canFollow(followerId, followingId) {
+  if (followerId === followingId) return { error: 'Cannot follow yourself' };
+  return { ok: true };
+}
