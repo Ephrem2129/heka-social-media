@@ -346,3 +346,5 @@ const debouncedSearch = useMemo(
 
 // Lazy loading
 const LazyProfileModal = lazy(() => import('./ProfileModal'));
+
+// Fix infinite scroll bug
