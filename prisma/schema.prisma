@@ -111,3 +111,7 @@ model Follow {
 // Add bio field to user model
 
 // Create post model and schema
+
+// Composite unique constraints
+@@unique([email])
+@@unique([username])
