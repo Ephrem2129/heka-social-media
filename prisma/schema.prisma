@@ -115,3 +115,5 @@ model Follow {
 // Composite unique constraints
 @@unique([email])
 @@unique([username])
+
+// Create user profile schema
