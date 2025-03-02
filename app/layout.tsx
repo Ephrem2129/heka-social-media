@@ -34,3 +34,5 @@ export default function RootLayout({
 // Add dark mode support
 
 // Refine navigation UI
+
+// Reduce bundle size
