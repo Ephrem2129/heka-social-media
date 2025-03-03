@@ -66,3 +66,9 @@ function canFollow(followerId, followingId) {
   if (followerId === followingId) return { error: 'Cannot follow yourself' };
   return { ok: true };
 }
+
+// Follow validation
+function canFollow(followerId, followingId) {
+  if (followerId === followingId) return { error: 'Cannot follow yourself' };
+  return { ok: true };
+}
