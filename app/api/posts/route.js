@@ -165,3 +165,7 @@ const posts = await prisma.post.findMany({
     _count: { select: { likes: true, comments: true } }
   }
 });
+
+// Caching strategy
+const CACHE_TTL = 60; // seconds
+const cacheKey = `posts:${page}:${limit}`;
