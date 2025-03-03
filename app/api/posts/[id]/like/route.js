@@ -44,3 +44,5 @@ async function toggleLike(postId, userId) {
     return { liked: true };
   }
 }
+
+// Resolve race condition in likes
