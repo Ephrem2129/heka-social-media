@@ -119,3 +119,5 @@ export async function DELETE(req, { params }) {
 }
 
 // Implement post deletion
+
+// Add post edit functionality
