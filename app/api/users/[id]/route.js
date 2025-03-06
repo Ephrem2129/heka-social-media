@@ -112,3 +112,9 @@ function validateUserProfile(data) {
   }
   return errors;
 }
+
+// User sanitization
+function sanitizeUserData(user) {
+  const { password, ...safeUser } = user;
+  return safeUser;
+}
