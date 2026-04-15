@@ -47,17 +47,3 @@ export default function SettingsPage() {
 		</main>
 	)
 }
-
-// Modified: 2026-04-15 20:23:46 - Create post model and schema
-
-// Modified: 2026-04-15 20:23:47 - Improve responsive layout
-
-// Modified: 2026-04-15 20:23:47 - Create follow model
-
-// Modified: 2026-04-15 20:23:47 - Add followers list endpoint
-
-// Modified: 2026-04-15 20:23:47 - Add bookmark functionality
-
-// Modified: 2026-04-15 20:23:47 - Fix CORS issues
-
-// Modified: 2026-04-15 20:23:47 - Add request debouncing

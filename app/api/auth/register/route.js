@@ -42,17 +42,3 @@ export async function POST(request) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
-
-
-
-// Modified: 2026-04-15 20:23:46 - Implement cookie-based session management
-
-// Modified: 2026-04-15 20:23:46 - Create initial migration
-
-// Modified: 2026-04-15 20:23:47 - Setup Tailwind CSS configuration
-
-// Modified: 2026-04-15 20:23:47 - Add dark mode support
-
-// Modified: 2026-04-15 20:23:47 - Create like model and schema
-
-// Modified: 2026-04-15 20:23:47 - Resolve image upload error

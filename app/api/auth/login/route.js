@@ -48,13 +48,3 @@ export async function POST(request) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
-
-
-
-// Modified: 2026-04-15 20:23:47 - Add hover effects
-
-// Modified: 2026-04-15 20:23:47 - Implement comment sorting
-
-// Modified: 2026-04-15 20:23:47 - Patch XSS vulnerability
-
-// Modified: 2026-04-15 20:23:47 - Resolve race condition in likes

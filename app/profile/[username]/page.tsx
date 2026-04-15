@@ -9,11 +9,3 @@ export default async function ProfilePageWrapper({
   const { username } = await params;
   return <ProfilePage username={username} />;
 }
-
-// Modified: 2026-04-15 20:23:46 - Create login API endpoint
-
-// Modified: 2026-04-15 20:23:46 - Optimize post query performance
-
-// Modified: 2026-04-15 20:23:47 - Polish button styles
-
-// Modified: 2026-04-15 20:23:47 - Add animation transitions

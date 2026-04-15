@@ -280,17 +280,3 @@ export default function ProfilePage({ username }: { username: string }) {
     </main>
   );
 }
-
-// Modified: 2026-04-15 20:23:46 - Improve auth error handling
-
-// Modified: 2026-04-15 20:23:46 - Update migration files
-
-// Modified: 2026-04-15 20:23:46 - Create user profile schema
-
-// Modified: 2026-04-15 20:23:46 - Create user settings page
-
-// Modified: 2026-04-15 20:23:46 - Add post edit functionality
-
-// Modified: 2026-04-15 20:23:47 - Fix comment threading
-
-// Modified: 2026-04-15 20:23:47 - Implement code splitting

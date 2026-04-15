@@ -96,9 +96,3 @@ export default function FeedPage() {
     </main>
   );
 }
-
-// Modified: 2026-04-15 20:23:46 - Add bcrypt password hashing
-
-// Modified: 2026-04-15 20:23:46 - Fix user profile loading
-
-// Modified: 2026-04-15 20:23:47 - Fix timezone handling

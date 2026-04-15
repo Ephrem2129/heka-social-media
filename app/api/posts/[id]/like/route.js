@@ -29,19 +29,3 @@ export async function POST(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
-
-// Modified: 2026-04-15 20:23:46 - Initialize Prisma schema
-
-// Modified: 2026-04-15 20:23:46 - Fix foreign key constraints
-
-// Modified: 2026-04-15 20:23:46 - Add unique constraints
-
-// Modified: 2026-04-15 20:23:46 - Add email validation
-
-// Modified: 2026-04-15 20:23:46 - Add post pagination
-
-// Modified: 2026-04-15 20:23:47 - Implement nested comment replies
-
-// Modified: 2026-04-15 20:23:47 - Implement notification system
-
-// Modified: 2026-04-15 20:23:47 - Create post edit modal

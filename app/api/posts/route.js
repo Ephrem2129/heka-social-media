@@ -95,7 +95,3 @@ export async function POST(req) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
-
-
-
-// Modified: 2026-04-15 20:23:46 - Implement image upload with Supabase

@@ -90,9 +90,3 @@ export default function PostPage({ params }: { params: { id: string } }) {
     </main>
   )
 }
-
-
-
-// Modified: 2026-04-15 20:23:46 - Add user search by username
-
-// Modified: 2026-04-15 20:23:47 - Add comment edit functionality

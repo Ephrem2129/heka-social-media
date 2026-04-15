@@ -17,21 +17,3 @@ export async function GET(req) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
-
-
-
-// Modified: 2026-04-15 20:23:46 - Add JWT token verification
-
-// Modified: 2026-04-15 20:23:46 - Add authentication middleware
-
-// Modified: 2026-04-15 20:23:46 - Update schema with new fields
-
-// Modified: 2026-04-15 20:23:46 - Add bio field to user model
-
-// Modified: 2026-04-15 20:23:46 - Fix post image rendering
-
-// Modified: 2026-04-15 20:23:47 - Optimize comment queries
-
-// Modified: 2026-04-15 20:23:47 - Create user mention system
-
-// Modified: 2026-04-15 20:23:47 - Add query result caching

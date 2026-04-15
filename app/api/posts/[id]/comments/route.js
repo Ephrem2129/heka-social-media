@@ -80,13 +80,3 @@ export async function POST(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
-
-// Modified: 2026-04-15 20:23:46 - Improve mobile responsiveness
-
-// Modified: 2026-04-15 20:23:47 - Refine navigation UI
-
-// Modified: 2026-04-15 20:23:47 - Implement follow/unfollow system
-
-// Modified: 2026-04-15 20:23:47 - Fix infinite scroll bug
-
-// Modified: 2026-04-15 20:23:47 - Add database connection pooling

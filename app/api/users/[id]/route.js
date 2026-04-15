@@ -82,9 +82,3 @@ export async function PATCH(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
-
-// Modified: 2026-04-15 20:23:46 - Create post detail page
-
-// Modified: 2026-04-15 20:23:46 - Create custom scrollbar styles
-
-// Modified: 2026-04-15 20:23:47 - Resolve cookie security flags

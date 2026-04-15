@@ -117,13 +117,3 @@ export async function DELETE(req, { params }) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
-
-// Modified: 2026-04-15 20:23:46 - Create hashtag parsing
-
-// Modified: 2026-04-15 20:23:46 - Add post search functionality
-
-// Modified: 2026-04-15 20:23:47 - Fix follow relationship queries
-
-// Modified: 2026-04-15 20:23:47 - Optimize React re-renders
-
-// Modified: 2026-04-15 20:23:47 - Implement lazy loading

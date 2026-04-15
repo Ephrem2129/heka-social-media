@@ -59,21 +59,3 @@ export function middleware(req) {
 export const config = {
   matcher: ['/((?!_next/static|_next/image|images|favicon.ico).*)'],
 }
-
-
-
-// Modified: 2026-04-15 20:23:46 - Add database seeding script
-
-// Modified: 2026-04-15 20:23:46 - Implement profile edit functionality
-
-// Modified: 2026-04-15 20:23:47 - Optimize social queries with indexes
-
-// Modified: 2026-04-15 20:23:47 - Add post search with hashtags
-
-// Modified: 2026-04-15 20:23:47 - Implement real-time feed updates
-
-// Modified: 2026-04-15 20:23:47 - Add image preview before upload
-
-// Modified: 2026-04-15 20:23:47 - Resolve API error handling
-
-// Modified: 2026-04-15 20:23:47 - Patch security vulnerability
